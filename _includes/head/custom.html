@@ -69,6 +69,17 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 
 /* Match nav font to reference site (system UI stack) */
 .masthead, .igue-nav, .igue-nav a, .masthead__menu-item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; font-weight: 600; }
+
+/* Ensure menu page names use same background as bar and white text */
+.igue-nav .visible-links > li > a,
+.igue-nav .visible-links > li > a:visited,
+.igue-nav .visible-links > li > a:focus,
+.igue-nav .visible-links > li > a:hover,
+.igue-nav .visible-links > li > a:active {
+  background-color: #4c956c !important;
+  color: #ffffff !important;
+  text-decoration: none;
+}
 </style>
 
 <!-- end custom head snippets -->
