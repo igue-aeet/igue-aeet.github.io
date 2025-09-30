@@ -20,6 +20,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
+.igue-nav, :root { color-scheme: light; }
 .masthead,
 .masthead::before,
 .masthead::after { background-color: #4c956c !important; background-image: none !important; box-shadow: none !important; border: 0 !important; }
@@ -81,5 +82,19 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
   text-decoration: none;
 }
 </style>
+
+<!-- Force day mode only -->
+<script>
+(function(){
+  try {
+    if (window.localStorage) {
+      localStorage.removeItem('theme');
+    }
+  } catch(e) {}
+  try {
+    document.documentElement.removeAttribute('data-theme');
+  } catch(e) {}
+})();
+</script>
 
 <!-- end custom head snippets -->
