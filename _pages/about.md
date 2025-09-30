@@ -10,13 +10,11 @@ toc_sticky: true
 toc_label: "Índice"
 ---
 
-Bienvenido a IGUE-AEET, el Grupo de Trabajo de Ecología Urbana de la Asociación Española de Ecología Terrestre (AEET).
 
-Los cambios en el uso del paisaje, incluyendo el incremento en extensión y densidad de las áreas urbanas, se incluyen entre los factores más importantes en dos de las mayores crisis a las que la humanidad se enfrenta: la pérdida de biodiversidad y la extinción del conocimiento ecológico y de las experiencias con la naturaleza. Aunque las ciudades pueden ejercer efectos negativos sobre la biodiversidad, también pueden retener una parte importante de la misma y generar cambios evolutivos en escalas temporales cortas. Además, las ciudades son heterogéneas y potencialmente actúan como centros de educación para fomentar el conocimiento ecológico y sobre biodiversidad. [Más información oficial en la web de AEET](https://www.aeet.org/es/gruposdetrabajo/igue.html).
+Los cambios en el uso del paisaje, incluyendo el incremento en extensión y densidad de las áreas urbanas, se incluyen entre los factores más importantes en dos de las mayores crisis a las que la humanidad se enfrenta: la pérdida de biodiversidad y la extinción del conocimiento ecológico y de las experiencias con la naturaleza. Aunque las ciudades pueden ejercer efectos negativos sobre la biodiversidad, también pueden retener una parte importante de la misma y generar cambios evolutivos en escalas temporales cortas. Además, las ciudades son heterogéneas y potencialmente actúan como centros de educación para fomentar el conocimiento ecológico y sobre biodiversidad. 
 
-Ámbito
-======
-IGUE se centra en el estudio de la ecología de ecosistemas urbanos desde una perspectiva amplia, integradora y transdisciplinar. El ámbito del grupo está limitado a investigadores de España y Portugal (con presencia nacional o internacional), y acoge escalas diversas, desde el análisis local hasta comparativas globales.
+
+El Grupo de Trabajo de Ecología Urbana de la Asociación Española de Ecología Terrestre (AEET) se centra en el estudio de la ecología de ecosistemas urbanos desde una perspectiva amplia, integradora y transdisciplinar. El ámbito del grupo está limitado a investigadores de España y Portugal (con presencia nacional o internacional), y acoge escalas diversas, desde el análisis local hasta comparativas globales.
 
 Objetivos
 ======
