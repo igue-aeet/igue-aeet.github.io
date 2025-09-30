@@ -12,8 +12,6 @@ classes: wide
 
 Los seminarios se listan a continuación.
 
-# Seminarios
-
 ## 2025
 
 ### 23.10.2025 - The fate of soil biodiversity and function under global environmental change

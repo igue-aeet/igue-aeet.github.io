@@ -10,6 +10,10 @@ toc_sticky: true
 toc_label: "Índice"
 ---
 
+<p style="text-align:center;margin:0 0 1rem 0;">
+  <img src="/images/IGUE.logo.jpeg" alt="IGUE-AEET" style="max-width:240px;width:50%;height:auto;border-radius:8px;" />
+</p>
+
 
 Los cambios en el uso del paisaje, incluyendo el incremento en extensión y densidad de las áreas urbanas, se incluyen entre los factores más importantes en dos de las mayores crisis a las que la humanidad se enfrenta: la pérdida de biodiversidad y la extinción del conocimiento ecológico y de las experiencias con la naturaleza. Aunque las ciudades pueden ejercer efectos negativos sobre la biodiversidad, también pueden retener una parte importante de la misma y generar cambios evolutivos en escalas temporales cortas. Además, las ciudades son heterogéneas y potencialmente actúan como centros de educación para fomentar el conocimiento ecológico y sobre biodiversidad. 
 
