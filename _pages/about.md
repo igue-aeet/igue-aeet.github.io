@@ -12,8 +12,6 @@ toc_label: "Índice"
 
 Bienvenido a IGUE-AEET, el Grupo de Trabajo de Ecología Urbana de la Asociación Española de Ecología Terrestre (AEET).
 
-Antecedentes
-======
 Los cambios en el uso del paisaje, incluyendo el incremento en extensión y densidad de las áreas urbanas, se incluyen entre los factores más importantes en dos de las mayores crisis a las que la humanidad se enfrenta: la pérdida de biodiversidad y la extinción del conocimiento ecológico y de las experiencias con la naturaleza. Aunque las ciudades pueden ejercer efectos negativos sobre la biodiversidad, también pueden retener una parte importante de la misma y generar cambios evolutivos en escalas temporales cortas. Además, las ciudades son heterogéneas y potencialmente actúan como centros de educación para fomentar el conocimiento ecológico y sobre biodiversidad. [Más información oficial en la web de AEET](https://www.aeet.org/es/gruposdetrabajo/igue.html).
 
 Ámbito
@@ -43,7 +41,7 @@ Plan de actividades
 
 Coordinadores
 ======
-- Juan Antonio Hernández Agüero — Vrije Universiteit Amsterdam, Países Bajos — (hernandezaguero.com)
+- Juan Antonio Hernández Agüero — Vrije Universiteit Amsterdam, Países Bajos — (<https://hernandezaguero.com7>)
 - Joan Casanelles Abella — Technical University of Munich, Alemania — (<https://joancasanelles.github.io/>)
 - Jéssica Jiménez Peñuela — Universidad de Granada, España — (<https://jimenezpenuela.wordpress.com/>)
 

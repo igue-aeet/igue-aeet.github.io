@@ -14,12 +14,38 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Friendly font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
 <style>
 .masthead { background-color: #4c956c; }
-body { background-color: #ffffff; }
-.greedy-nav a, .masthead a { color: #ffffff !important; }
-.greedy-nav .visible-links > li.masthead__menu-item--lg a { color: #ffffff !important; }
-.greedy-nav .navicon, .greedy-nav button { color: #ffffff; }
+body { background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; }
+
+/* Ensure all menu text/icons are white */
+.greedy-nav a,
+.greedy-nav a:visited,
+.greedy-nav a:focus,
+.greedy-nav .visible-links > li > a,
+.greedy-nav .hidden-links a,
+.masthead a,
+.masthead .site-title,
+.greedy-nav button,
+.greedy-nav .navicon { color: #ffffff !important; }
+
+/* Optional: keep hover white */
+.greedy-nav a:hover,
+.greedy-nav .visible-links > li > a:hover,
+.greedy-nav .hidden-links a:hover { color: #ffffff !important; opacity: 0.9; }
+
+/* Dropdown/overflow menu background and divider control */
+.greedy-nav .hidden-links { background-color: #4c956c !important; border-color: rgba(255,255,255,0.25) !important; }
+.greedy-nav .hidden-links li { border-color: rgba(255,255,255,0.2) !important; }
+.greedy-nav .hidden-links a { color: #ffffff !important; }
+
+/* Ensure large site title link stays white */
+.masthead__menu-item--lg a { color: #ffffff !important; }
 </style>
 
 <!-- end custom head snippets -->
