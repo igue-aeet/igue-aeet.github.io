@@ -63,6 +63,18 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 
 /* Ensure large site title link stays white */
 .masthead__menu-item--lg a { color: #ffffff !important; }
+
+/* Left-align nav items and place search on right */
+.greedy-nav .visible-links { display: flex; align-items: center; gap: 0.5rem; }
+.greedy-nav .visible-links .tail { margin-left: auto !important; }
+
+/* Search field styling to fit masthead */
+.greedy-nav input[type="search"] { height: 2rem; padding: 0 0.5rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.35); background: rgba(255,255,255,0.15); color: #ffffff; }
+.greedy-nav input[type="search"]::placeholder { color: rgba(255,255,255,0.85); }
+.greedy-nav input[type="search"]:focus { outline: none; background: rgba(255,255,255,0.25); border-color: rgba(255,255,255,0.6); }
+
+/* Match nav font to reference site (system UI stack) */
+.masthead, .greedy-nav, .greedy-nav a, .masthead__menu-item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; font-weight: 600; }
 </style>
 
 <!-- end custom head snippets -->
