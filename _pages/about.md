@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "IGUE-AEET"
+title: ""
 author_profile: false
 redirect_from:
   - /about/
