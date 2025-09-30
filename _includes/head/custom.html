@@ -20,17 +20,20 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
-.masthead { background-color: #4c956c; }
+.masthead,
+.masthead::before,
+.masthead::after { background-color: #4c956c !important; background-image: none !important; box-shadow: none !important; border: 0 !important; }
 /* Ensure no white background in masthead subcontainers */
 .masthead__inner-wrap,
+.masthead__inner-wrap::before,
+.masthead__inner-wrap::after,
 .greedy-nav,
+.greedy-nav::before,
+.greedy-nav::after,
 .greedy-nav .visible-links,
-.greedy-nav .hidden-links { background-color: #4c956c !important; background-image: none !important; }
-
-/* Remove default shadows/borders that may appear as light bars */
-.masthead,
-.masthead__inner-wrap,
-.greedy-nav { box-shadow: none !important; border: 0 !important; }
+.greedy-nav .visible-links::before,
+.greedy-nav .visible-links::after,
+.greedy-nav .hidden-links { background-color: #4c956c !important; background-image: none !important; box-shadow: none !important; border: 0 !important; }
 body { background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; }
 /* Ensure main content text remains black */
 body, .page__content, .page__content p, .page__content li, .page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 { color: #000000; }
@@ -47,7 +50,10 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 .greedy-nav .navicon { color: #ffffff !important; }
 
 /* Make the burger button background transparent */
-.greedy-nav button { background: transparent !important; }
+.greedy-nav button,
+.greedy-nav button:hover,
+.greedy-nav button:focus,
+.greedy-nav button:active { background: transparent !important; box-shadow: none !important; outline: none !important; }
 
 
 /* Dropdown/overflow menu background and divider control */
