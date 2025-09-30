@@ -39,15 +39,12 @@ body { background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacS
 body, .page__content, .page__content p, .page__content li, .page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 { color: #000000; }
 
 /* Ensure all menu text/icons are white */
-.greedy-nav a,
-.greedy-nav a:visited,
-.greedy-nav a:focus,
-.greedy-nav .visible-links > li > a,
-.greedy-nav .hidden-links a,
+.igue-nav a,
+.igue-nav a:visited,
+.igue-nav a:focus,
+.igue-nav .visible-links > li > a,
 .masthead a,
-.masthead .site-title,
-.greedy-nav button,
-.greedy-nav .navicon { color: #ffffff !important; }
+.masthead .site-title { color: #ffffff !important; }
 
 /* Make the burger button background transparent */
 .greedy-nav button,
@@ -56,25 +53,22 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 .greedy-nav button:active { background: transparent !important; box-shadow: none !important; outline: none !important; }
 
 
-/* Dropdown/overflow menu background and divider control */
-.greedy-nav .hidden-links { background-color: #4c956c !important; border-color: rgba(255,255,255,0.25) !important; }
-.greedy-nav .hidden-links li { border-color: rgba(255,255,255,0.2) !important; }
-.greedy-nav .hidden-links a { color: #ffffff !important; }
+/* Static nav layout */
+.igue-nav .visible-links { display: flex; align-items: center; gap: 0.5rem; list-style: none; margin: 0; padding: 0; }
 
 /* Ensure large site title link stays white */
 .masthead__menu-item--lg a { color: #ffffff !important; }
 
 /* Left-align nav items and place search on right */
-.greedy-nav .visible-links { display: flex; align-items: center; gap: 0.5rem; }
-.greedy-nav .visible-links .tail { margin-left: auto !important; }
+.igue-nav .visible-links .tail { margin-left: auto !important; }
 
 /* Search field styling to fit masthead */
-.greedy-nav input[type="search"] { height: 2rem; padding: 0 0.5rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.35); background: rgba(255,255,255,0.15); color: #ffffff; }
-.greedy-nav input[type="search"]::placeholder { color: rgba(255,255,255,0.85); }
-.greedy-nav input[type="search"]:focus { outline: none; background: rgba(255,255,255,0.25); border-color: rgba(255,255,255,0.6); }
+.igue-nav input[type="search"] { height: 2rem; padding: 0 0.5rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.35); background: rgba(255,255,255,0.15); color: #ffffff; }
+.igue-nav input[type="search"]::placeholder { color: rgba(255,255,255,0.85); }
+.igue-nav input[type="search"]:focus { outline: none; background: rgba(255,255,255,0.25); border-color: rgba(255,255,255,0.6); }
 
 /* Match nav font to reference site (system UI stack) */
-.masthead, .greedy-nav, .greedy-nav a, .masthead__menu-item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; font-weight: 600; }
+.masthead, .igue-nav, .igue-nav a, .masthead__menu-item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; font-weight: 600; }
 </style>
 
 <!-- end custom head snippets -->
