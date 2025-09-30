@@ -5,7 +5,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="igue-nav">
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/"><img class="igue-logo" src="{{ base_path }}/images/IGUE.logo.jpeg" alt="{{ site.title }}"/> <span>{{ site.title }}</span></a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
