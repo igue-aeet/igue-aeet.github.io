@@ -104,6 +104,25 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 
 /* Hide default footer sections and text */
 .page__footer-follow, .page__footer-copyright { display: none !important; }
+
+/* Responsive navigation: ensure all tabs are visible on phones */
+@media (max-width: 900px) {
+  .igue-nav .visible-links { flex-wrap: wrap; row-gap: 0.25rem; }
+  .igue-nav .visible-links > li { flex: 1 1 auto; }
+  .igue-nav .visible-links .tail { flex: 1 1 100%; order: 99; }
+  .igue-nav input[type="search"] { width: 100%; box-sizing: border-box; }
+}
+
+@media (max-width: 640px) {
+  .masthead__menu-item--lg a { font-size: 0.95rem; }
+  .igue-nav .visible-links > li { flex: 1 1 48%; }
+  .igue-nav .visible-links > li.masthead__menu-item--lg { flex: 1 1 100%; }
+}
+
+@media (max-width: 420px) {
+  .igue-nav .visible-links { flex-direction: column; align-items: stretch; }
+  .igue-nav .visible-links > li { flex: 1 1 100%; }
+}
 </style>
 
 <!-- Force day mode only -->
