@@ -105,41 +105,7 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 /* Hide default footer sections and text */
 .page__footer-follow, .page__footer-copyright { display: none !important; }
 
-/* Responsive navigation: ensure all tabs are visible on phones */
-@media (max-width: 900px) {
-  /* Collapse the list by default and open via data attribute */
-  .igue-nav .visible-links { display: none !important; flex-direction: column; row-gap: 0; width: 100%; }
-  .igue-nav .visible-links[data-open="true"] { display: flex !important; }
-  .igue-nav .visible-links > li { flex: 1 1 100%; }
-  .igue-nav .visible-links .tail { order: 99; }
-  .igue-nav input[type="search"] { width: 100%; box-sizing: border-box; }
-}
-
-@media (max-width: 640px) {
-  .masthead__menu-item--lg a { font-size: 0.95rem; }
-}
-
-@media (max-width: 420px) {
-  .igue-nav .visible-links { align-items: stretch; }
-  .igue-nav .visible-links > li { flex: 1 1 100%; }
-}
-
-/* Mobile dropdown styles */
-@media (max-width: 900px) {
-  .igue-nav__toggle { display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 12px; width: 100%; border-radius: 6px; border: 1px solid rgba(255,255,255,0.35); color: #ffffff; background: rgba(255,255,255,0.15); cursor: pointer; }
-}
-
-@media (min-width: 901px) {
-  .igue-nav__toggle { display: none; }
-}
-
-/* Collapsible list behavior */
-@media (max-width: 900px) {
-  .igue-nav [data-mobile-collapsible] { display: none !important; width: 100%; margin-top: 6px; }
-  .igue-nav [data-mobile-collapsible][data-open="true"] { display: flex !important; }
-  /* Make each link row-like and easy to tap */
-  .igue-nav .visible-links > li > a { display: block; padding: 10px 4px; background: transparent !important; border-bottom: 1px solid rgba(255,255,255,0.25); }
-}
+/* Removed mobile dropdown overrides */
 </style>
 
 <!-- Force day mode only -->
@@ -156,17 +122,6 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 })();
 </script>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  var toggle = document.querySelector('.igue-nav__toggle');
-  var list = document.getElementById('igue-nav-list');
-  if (!toggle || !list) return;
-  toggle.addEventListener('click', function() {
-    var isOpen = list.getAttribute('data-open') === 'true';
-    list.setAttribute('data-open', isOpen ? 'false' : 'true');
-    toggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
-  });
-});
-</script>
+<!-- Removed mobile dropdown JS -->
 
 <!-- end custom head snippets -->
