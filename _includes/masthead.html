@@ -3,8 +3,12 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="igue-nav">
-        <ul class="visible-links">
+      <nav id="site-nav" class="igue-nav" aria-label="Main navigation">
+        <button class="igue-nav__toggle" aria-expanded="false" aria-controls="igue-nav-list">
+          <span class="sr-only">Toggle navigation</span>
+          ☰ Menu
+        </button>
+        <ul id="igue-nav-list" class="visible-links" data-mobile-collapsible>
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/"><img class="igue-logo" src="{{ base_path }}/images/IGUE.logo.jpeg" alt="{{ site.title }}"/> <span>{{ site.title }}</span></a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}

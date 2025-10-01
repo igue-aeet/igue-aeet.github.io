@@ -123,6 +123,21 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
   .igue-nav .visible-links { flex-direction: column; align-items: stretch; }
   .igue-nav .visible-links > li { flex: 1 1 100%; }
 }
+
+/* Mobile dropdown styles */
+@media (max-width: 900px) {
+  .igue-nav__toggle { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.35); color: #ffffff; background: rgba(255,255,255,0.15); cursor: pointer; }
+}
+
+@media (min-width: 901px) {
+  .igue-nav__toggle { display: none; }
+}
+
+/* Collapsible list behavior */
+@media (max-width: 900px) {
+  .igue-nav [data-mobile-collapsible] { display: none; width: 100%; margin-top: 6px; }
+  .igue-nav [data-mobile-collapsible][data-open="true"] { display: flex; }
+}
 </style>
 
 <!-- Force day mode only -->
@@ -137,6 +152,19 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
     document.documentElement.removeAttribute('data-theme');
   } catch(e) {}
 })();
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var toggle = document.querySelector('.igue-nav__toggle');
+  var list = document.getElementById('igue-nav-list');
+  if (!toggle || !list) return;
+  toggle.addEventListener('click', function() {
+    var isOpen = list.getAttribute('data-open') === 'true';
+    list.setAttribute('data-open', isOpen ? 'false' : 'true');
+    toggle.setAttribute('aria-expanded', isOpen ? 'false' : 'true');
+  });
+});
 </script>
 
 <!-- end custom head snippets -->
