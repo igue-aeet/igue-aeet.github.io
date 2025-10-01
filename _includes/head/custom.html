@@ -94,7 +94,7 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 .igue-footerbar__text { font-weight: 600; }
 .igue-footerbar__link { margin-left: auto; color: #ffffff !important; text-decoration: none; display: inline-flex; align-items: center; gap: 6px; }
 .igue-footerbar__link:hover { text-decoration: underline; }
-.igue-footerbar__icon { display: inline-block; color: #ffffff; }
+.igue-footerbar__icon { display: inline-block; color: #ffffff; filter: invert(1) grayscale(1) brightness(100%); }
 
 /* Bottom footer overrides to match header green */
 .page__footer { background-color: #4c956c !important; color: #ffffff !important; border-top: 0 !important; }
@@ -107,26 +107,26 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 
 /* Responsive navigation: ensure all tabs are visible on phones */
 @media (max-width: 900px) {
-  .igue-nav .visible-links { flex-wrap: wrap; row-gap: 0.25rem; }
-  .igue-nav .visible-links > li { flex: 1 1 auto; }
-  .igue-nav .visible-links .tail { flex: 1 1 100%; order: 99; }
+  /* Collapse the list by default and open via data attribute */
+  .igue-nav .visible-links { display: none !important; flex-direction: column; row-gap: 0; width: 100%; }
+  .igue-nav .visible-links[data-open="true"] { display: flex !important; }
+  .igue-nav .visible-links > li { flex: 1 1 100%; }
+  .igue-nav .visible-links .tail { order: 99; }
   .igue-nav input[type="search"] { width: 100%; box-sizing: border-box; }
 }
 
 @media (max-width: 640px) {
   .masthead__menu-item--lg a { font-size: 0.95rem; }
-  .igue-nav .visible-links > li { flex: 1 1 48%; }
-  .igue-nav .visible-links > li.masthead__menu-item--lg { flex: 1 1 100%; }
 }
 
 @media (max-width: 420px) {
-  .igue-nav .visible-links { flex-direction: column; align-items: stretch; }
+  .igue-nav .visible-links { align-items: stretch; }
   .igue-nav .visible-links > li { flex: 1 1 100%; }
 }
 
 /* Mobile dropdown styles */
 @media (max-width: 900px) {
-  .igue-nav__toggle { display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; border: 1px solid rgba(255,255,255,0.35); color: #ffffff; background: rgba(255,255,255,0.15); cursor: pointer; }
+  .igue-nav__toggle { display: inline-flex; align-items: center; justify-content: space-between; gap: 8px; padding: 8px 12px; width: 100%; border-radius: 6px; border: 1px solid rgba(255,255,255,0.35); color: #ffffff; background: rgba(255,255,255,0.15); cursor: pointer; }
 }
 
 @media (min-width: 901px) {
@@ -135,8 +135,10 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 
 /* Collapsible list behavior */
 @media (max-width: 900px) {
-  .igue-nav [data-mobile-collapsible] { display: none; width: 100%; margin-top: 6px; }
-  .igue-nav [data-mobile-collapsible][data-open="true"] { display: flex; }
+  .igue-nav [data-mobile-collapsible] { display: none !important; width: 100%; margin-top: 6px; }
+  .igue-nav [data-mobile-collapsible][data-open="true"] { display: flex !important; }
+  /* Make each link row-like and easy to tap */
+  .igue-nav .visible-links > li > a { display: block; padding: 10px 4px; background: transparent !important; border-bottom: 1px solid rgba(255,255,255,0.25); }
 }
 </style>
 
