@@ -37,13 +37,13 @@ Plan de actividades
 - Compartir trabajos recientes de investigación en nuestra newsletter y redes sociales.
 - Difundir ofertas de tesis, posdoctorado, colaboraciones y proyectos.
 - Unir personas trabajando en ecología urbana y crear redes de colaboración.
-- Organizar workshops y reuniones.
+- Organizar seminarios, workshops y reuniones.
 - Editar un monográfico de ecología urbana en la revista Ecosistemas para 2026 con revisión extensa de literatura.
 - Organizar sesiones de ecología urbana en congresos de la AEET.
 
 Coordinadores
 ======
-- Juan Antonio Hernández Agüero — Vrije Universiteit Amsterdam, Países Bajos — (<https://hernandezaguero.com7>)
+- Juan Antonio Hernández Agüero — Vrije Universiteit Amsterdam, Países Bajos — (<https://hernandezaguero.com/>)
 - Joan Casanelles Abella — Technical University of Munich, Alemania — (<https://joancasanelles.github.io/>)
 - Jéssica Jiménez Peñuela — Universidad de Granada, España — (<https://jimenezpenuela.wordpress.com/>)
 
@@ -52,8 +52,3 @@ Cómo participar
 - Dirección de contacto: igue@aeet.org
 - Formulario para unirse al grupo: <https://forms.gle/ESYtu19jNd2Gmibk7>
 - Página oficial del grupo en AEET: <https://www.aeet.org/es/gruposdetrabajo/igue.html>
-
-Créditos y base
-======
-Sitio basado en el estilo de Ecoinformática-AEET, adaptado a IGUE (
-<https://ecoinfaeet.github.io/>). 
