@@ -19,7 +19,6 @@ Seminars are listed below:
 
 - Presenter: Dr. Manuel Delgado-Baquerizo (IRNAS-CSIC, Spain) 
 - Time and date: 23  October 2025 at 16.30 
-- Teams link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d
 - Join the seminar [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d)
 - Websites: https://www.irnas.csic.es/es/investigacion/departamentos/agrobiotecnologia-quimica-vegetal-y-biodiversidad/biofunlab/
 
@@ -27,6 +26,7 @@ Seminars are listed below:
 
 - Presenter: Dr. Álvaro Luna (Universidad Europea de Madrid, Spain)
 - Time and date: 11 December 2025 at 16.30 
+
 
 ## 2026
 
