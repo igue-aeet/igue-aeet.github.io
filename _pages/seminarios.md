@@ -9,6 +9,7 @@ toc_label: "Índice"
 classes: wide
 ---
 
+Seminars are online in Teams. Links are distributed within the mailing list. If you haven't recieved the emails or can't find the zoom links, send us an email at <a href="mailto:igue@aeet.org">igue@aeet.org</a>.
 
 Seminars are listed below:
 
@@ -18,6 +19,9 @@ Seminars are listed below:
 
 - Presenter: Dr. Manuel Delgado-Baquerizo (IRNAS-CSIC, Spain) 
 - Time and date: 23  October 2025 at 16.30 
+- Teams link: https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d
+- Join the seminar [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d)
+- Websites: https://www.irnas.csic.es/es/investigacion/departamentos/agrobiotecnologia-quimica-vegetal-y-biodiversidad/biofunlab/
 
 ### 11.12.2025 - TBA
 
@@ -36,10 +40,24 @@ Seminars are listed below:
 - Presenter: Prof. Dr. Gema Trigos Peral (Museum and Institute of Zoology of Warsaw, Poland)
 - Time and date::  12 February 2026 at 16.30
 
-### 09.04.2026 - Background mechanisms shaping ant communities in urban ecosystems
+### 09.04.2026 - TBA
 
 - Presenter: Dr. Pablo Capilla-Lasheras (Swiss Ornithological Institute, Switzerland)
 - Time and date:  9 April  2026 at 16.30
+
+### 04.06.2026 - TBA
+
+- Presenter: Dr. Pedro Pinho  (University of Lisboa, Portugal)
+- Time and date::  04 June 2026 at 16.30
+- Websites: https://www.ce3c.pt/research/research-groups/towards-sustainable-and-resilient-ecosystems/urban-ecology/pedro-pinho
+
+### 25.06.2026 - TBA
+
+- Presenter: Dr. Elena Concepción (The National Museum of Natural Sciences, Spain)
+- Time and date::  25 June 2026 at 16.30
+- Websites: http://mncn.bmtest.es/es/quienes_somos/concepcion-cuevas-elena-daniela
+
+
 
 <p style="margin-top:1rem;">
 Would you like to give a seminar? Send us an email at <a href="mailto:igue@aeet.org">igue@aeet.org</a>.
