@@ -9,7 +9,7 @@ toc_label: "Índice"
 classes: wide
 ---
 
-Seminars are online in Teams. Links are distributed within the mailing list. If you haven't recieved the emails or can't find the zoom links, send us an email at <a href="mailto:igue@aeet.org">igue@aeet.org</a>.
+Seminars are online in Teams. Links can be found below. 
 
 Seminars are listed below:
 
