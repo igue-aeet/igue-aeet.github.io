@@ -32,7 +32,7 @@ Seminars are listed below:
 
 ### 15.01.2026 - TBA 
 
-- Presenter: Dr. Yolanda Melero (CREAF)
+- Presenter: Dr. Yolanda Melero (CREAF, Spain)
 - Time and date: 15  January 2026 at 16.30
 - Websites: <https://www.creaf.cat/en/about-us/our-people/yolanda-melero-cavero>
 
