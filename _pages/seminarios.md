@@ -19,8 +19,16 @@ Seminars are listed below:
 
 - Presenter: Dr. Manuel Delgado-Baquerizo (IRNAS-CSIC, Spain) 
 - Time and date: 23  October 2025 at 16.30 
-- Join the seminar [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d)
 - Websites: <https://www.irnas.csic.es/es/investigacion/departamentos/agrobiotecnologia-quimica-vegetal-y-biodiversidad/biofunlab/>
+- Missed the seminar? You can watch it [here](https://www.youtube.com/watch?v=a_m93wjjqv8&t=517s)
+
+### 20.11.2025 - Background mechanisms shaping ant communities in urban ecosystems
+
+- Presenter: Prof. Dr. Gema Trigos Peral (Museum and Institute of Zoology of Warsaw, Poland)
+- Time and date::  12 February 2026 at 16.30
+- Join the seminar [here](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjI0OWZkZGEtNmUyMy00MjZkLWIwOGEtZjVjZmEzYTYwMTk5%40thread.v2/0?context=%7b%22Tid%22%3a%22462a9c9c-2da6-4bfb-b318-0f83043fe49b%22%2c%22Oid%22%3a%225a788e3b-38e2-46ae-8a41-7a88d51b2203%22%7d)
+- Websites:<https://miiz.eu/pl/ogloszenia/zamowienia-publiczne/31-struktura/pracownicy/466-trigos-peral-gema-dr-biology-speciality-ecology>
+
 
 ### 11.12.2025 - TBA
 
@@ -36,11 +44,6 @@ Seminars are listed below:
 - Time and date: 15  January 2026 at 16.30
 - Websites: <https://www.creaf.cat/en/about-us/our-people/yolanda-melero-cavero>
 
-### 12.02.2026 - Background mechanisms shaping ant communities in urban ecosystems
-
-- Presenter: Prof. Dr. Gema Trigos Peral (Museum and Institute of Zoology of Warsaw, Poland)
-- Time and date::  12 February 2026 at 16.30
-- Websites:<https://miiz.eu/pl/ogloszenia/zamowienia-publiczne/31-struktura/pracownicy/466-trigos-peral-gema-dr-biology-speciality-ecology>
 
 ### 09.04.2026 - TBA
 
