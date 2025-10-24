@@ -21,31 +21,13 @@
 
 <style>
 .igue-nav, :root { color-scheme: light; }
-.masthead,
-.masthead::before,
-.masthead::after { background-color: #4c956c !important; background-image: none !important; box-shadow: none !important; border: 0 !important; }
-/* Ensure no white background in masthead subcontainers */
-.masthead__inner-wrap,
-.masthead__inner-wrap::before,
-.masthead__inner-wrap::after,
-.greedy-nav,
-.greedy-nav::before,
-.greedy-nav::after,
-.greedy-nav .visible-links,
-.greedy-nav .visible-links::before,
-.greedy-nav .visible-links::after,
-.greedy-nav .hidden-links { background-color: #4c956c !important; background-image: none !important; box-shadow: none !important; border: 0 !important; }
+/* Removed green background from masthead */
+/* Removed green background from masthead subcontainers */
 body { background-color: #ffffff; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif; }
 /* Ensure main content text remains black */
 body, .page__content, .page__content p, .page__content li, .page__content h1, .page__content h2, .page__content h3, .page__content h4, .page__content h5, .page__content h6 { color: #000000; }
 
-/* Ensure all menu text/icons are white */
-.igue-nav a,
-.igue-nav a:visited,
-.igue-nav a:focus,
-.igue-nav .visible-links > li > a,
-.masthead a,
-.masthead .site-title { color: #ffffff !important; }
+/* Removed white text color overrides */
 
 /* Make the burger button background transparent */
 .greedy-nav button,
@@ -57,30 +39,15 @@ body, .page__content, .page__content p, .page__content li, .page__content h1, .p
 /* Static nav layout */
 .igue-nav .visible-links { display: flex; align-items: center; gap: 0.5rem; list-style: none; margin: 0; padding: 0; }
 
-/* Ensure large site title link stays white */
-.masthead__menu-item--lg a { color: #ffffff !important; }
+/* Removed white text color override for site title */
 
-/* Left-align nav items and place search on right */
-.igue-nav .visible-links .tail { margin-left: auto !important; }
-
-/* Search field styling to fit masthead */
-.igue-nav input[type="search"] { height: 2rem; padding: 0 0.5rem; border-radius: 4px; border: 1px solid #4c956c; background: #4c956c; color: #ffffff; }
-.igue-nav input[type="search"]::placeholder { color: rgba(255,255,255,0.85); }
-.igue-nav input[type="search"]:focus { outline: none; background: #4c956c; border-color: rgba(255,255,255,0.6); }
+/* Hide search menu from navigation */
+.igue-nav .visible-links .tail { display: none !important; }
 
 /* Match nav font to reference site (system UI stack) */
 .masthead, .igue-nav, .igue-nav a, .masthead__menu-item { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif; font-weight: 600; }
 
-/* Ensure menu page names use same background as bar and white text */
-.igue-nav .visible-links > li > a,
-.igue-nav .visible-links > li > a:visited,
-.igue-nav .visible-links > li > a:focus,
-.igue-nav .visible-links > li > a:hover,
-.igue-nav .visible-links > li > a:active {
-  background-color: #4c956c !important;
-  color: #ffffff !important;
-  text-decoration: none;
-}
+/* Removed green background and white text overrides for menu items */
 
 /* Small logo next to site title */
 .igue-logo { height: 22px; width: auto; vertical-align: middle; margin-right: 8px; border-radius: 4px; }
