@@ -11,8 +11,6 @@ classes: wide
 
 Seminars are online in Teams. Links can be found below. 
 
-Seminars are listed below:
-
 ## 2025
 
 ### 23.10.2025 - The fate of soil biodiversity and function under global environmental change
@@ -25,14 +23,15 @@ Seminars are listed below:
 ### 20.11.2025 - Background mechanisms shaping ant communities in urban ecosystems
 
 - Presenter: Prof. Dr. Gema Trigos Peral (Museum and Institute of Zoology of Warsaw, Poland)
-- Time and date::  12 February 2026 at 16.30
+- Time and date::  20 November 2026 at 16.30
 - Websites:<https://miiz.eu/pl/ogloszenia/zamowienia-publiczne/31-struktura/pracownicy/466-trigos-peral-gema-dr-biology-speciality-ecology>
 
 
-### 11.12.2025 - TBA
+### 10.12.2025 - The landscape configuration of urban green areas and whether it affects biodiversity in the city
 
 - Presenter: Dr. Álvaro Luna (Universidad Europea de Madrid, Spain)
-- Time and date: 11 December 2025 at 16.30 
+- Time and date: 10 December 2025 at 16.30
+- You can join use [here](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F[…]rue&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
 - Websites: <https://portalcientifico.universidadeuropea.com/investigadores/157016/detalle>
 
 ## 2026
@@ -43,6 +42,18 @@ Seminars are listed below:
 - Time and date: 15  January 2026 at 16.30
 - Websites: <https://www.creaf.cat/en/about-us/our-people/yolanda-melero-cavero>
 
+### 12.02.2026 - TBA 
+
+- Presenter: Dr. Ibone Ametzaga-Arregi (University of the Basque Country, Spain)
+- Time and date: 02  February 2026 at 16.30
+- Websites: <https://ekoizpen-zientifikoa.ehu.eus/investigadores/130056/detalle>
+
+### 12.03.2026 - TBA 
+
+- Presenter: Dr. Martina Ferraguti (EBD-CSIC, Spain)
+- Time and date: 12  March 2026 at 16.30
+- Websites: <https://martinaferraguti.com/>
+
 
 ### 09.04.2026 - TBA
 
@@ -52,15 +63,21 @@ Seminars are listed below:
 
 ### 04.06.2026 - TBA
 
+- Presenter: Dr. Palua Matos  (University of Lisboa, Portugal)
+- Time and date::  04 June 2026 at 16.30
+- Websites: <https://ceg.igot.ulisboa.pt/pessoas/paula-matos>
+
+### 04.06.2026 - TBA
+
 - Presenter: Dr. Pedro Pinho  (University of Lisboa, Portugal)
 - Time and date::  04 June 2026 at 16.30
 - Websites: <https://www.ce3c.pt/research/research-groups/towards-sustainable-and-resilient-ecosystems/urban-ecology/pedro-pinho>
 
 ### 25.06.2026 - TBA
 
-- Presenter: Dr. Elena Concepción (The National Museum of Natural Sciences, Spain)
+- Presenter: prof. Dr. Cristina Barranquinho (University of Lisboa, Portugal)
 - Time and date::  25 June 2026 at 16.30
-- Websites: <http://mncn.bmtest.es/es/quienes_somos/concepcion-cuevas-elena-daniela>
+- Websites: <https://www.ce3c.pt/research/research-groups/towards-sustainable-and-resilient-ecosystems/system-ecology/cristina-branquinho>
 
 
 
